@@ -18,3 +18,22 @@
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
+
+    // Scroll animation for hero section
+  window.addEventListener('scroll', () => {
+    const hero = document.querySelector('.hero-content');
+    const rect = hero.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      hero.classList.add('animate');
+    }
+  });
+
+  // Trigger animation immediately if in view on load
+  document.addEventListener('DOMContentLoaded', () => {
+    const hero = document.querySelector('.hero-content');
+    if (hero.getBoundingClientRect().top < window.innerHeight - 100) {
+      hero.classList.add('animate');
+    }
+  });
+
+  

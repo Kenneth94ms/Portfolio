@@ -17,3 +17,34 @@
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+  .hero-section {
+    min-height: 90vh;
+    background: linear-gradient(to right, #f8f9fa, #fff);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-in-out;
+  }
+
+  .hero-content.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .hero-content h1 {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .hero-content p {
+    max-width: 720px;
+    margin: 0 auto;
+    color: #555;
+  }
+
+  
