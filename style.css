@@ -166,3 +166,7 @@ footer {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+.navbar-brand{
+  color: rgb(194, 194, 194);
+}
