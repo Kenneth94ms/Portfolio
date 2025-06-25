@@ -160,3 +160,9 @@ body.dark-mode .navbar-light .navbar-nav .nav-link {
   color: #16a085;
   border-color: #16a085;
 }
+
+footer {
+  font-size: 0.9rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

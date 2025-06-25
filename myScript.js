@@ -49,3 +49,5 @@
     const isDark = document.body.classList.contains('dark-mode');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
   });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
