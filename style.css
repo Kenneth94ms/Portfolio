@@ -18,33 +18,108 @@
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
-  .hero-section {
-    min-height: 90vh;
-    background: linear-gradient(to right, #f8f9fa, #fff);
-    position: relative;
-    overflow: hidden;
-  }
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --lead-color: #555555;
+  --hero-bg: linear-gradient(to right, #f8f9fa, #ffffff);
+}
 
-  .hero-content {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease-in-out;
-  }
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-  .hero-content.animate {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.hero-section {
+  min-height: 90vh;
+  background: var(--hero-bg);
+  position: relative;
+  overflow: hidden;
+}
 
-  .hero-content h1 {
-    font-weight: bold;
-    color: #333;
-  }
+.hero-content {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-in-out;
+}
 
-  .hero-content p {
-    max-width: 720px;
-    margin: 0 auto;
-    color: #555;
-  }
+.hero-content.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-  
+.hero-content h1 {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.hero-content p {
+  max-width: 720px;
+  margin: 0 auto;
+  color: var(--lead-color);
+}
+
+/* Dark Mode Overrides */
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+  --lead-color: #cccccc;
+  --hero-bg: linear-gradient(to right, #1e1e1e, #2c2c2c);
+}
+
+  :root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --nav-bg: #f8f9fa;
+  --link-color: #007bff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar, .bg-light {
+  background-color: var(--nav-bg) !important;
+}
+
+a {
+  color: var(--link-color);
+}
+
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+  --nav-bg: #1e1e1e;
+  --link-color: #66b2ff;
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+  color: #ddd;
+}
+
+.ms-3{
+  margin-left:0rem !important;
+}
+
+:root {
+  --list-bg: #ffffff;
+  --list-border: #dee2e6;
+  --list-text: #333333;
+}
+
+.list-group-item {
+  background-color: var(--list-bg);
+  border-color: var(--list-border);
+  color: var(--list-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode overrides */
+body.dark-mode {
+  --list-bg: #1e1e1e;
+  --list-border: #444;
+  --list-text: #e0e0e0;
+}
