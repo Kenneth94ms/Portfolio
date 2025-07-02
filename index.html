@@ -118,7 +118,7 @@
       <div class="card-body">
         <h5 class="card-title">Recharge Migration - Shopify Sol-ti</h5>
         <p class="card-text">Seamlessly migrated Subi subscriptions into Recharge with optimized UX and backend sync for Shopify store.</p>
-        <a href="https://solti.com/products/energy-digestion-ginger-wellness-lemon-shot?_pos=3&_fid=ea93326e4&_ss=c" class="btn btn-sm btndownload">View E-commerce</a>
+        <a href="https://solti.com/products/energy-digestion-ginger-wellness-lemon-shot?_pos=3&_fid=ea93326e4&_ss=c" target="_blank" class="btn btn-sm btndownload">View E-commerce</a>
       </div>
     </div>
   </div>
@@ -130,7 +130,7 @@
       <div class="card-body">
         <h5 class="card-title">Serkes Consulting - Wordpress</h5>
         <p class="card-text">Customiced Wordpress website for client focus on renovate entire website and show new features to clients.</p>
-        <a href="https://serkes1.com/" class="btn  btn-sm btndownload">View Website</a>
+        <a href="https://serkes1.com/" target="_blank" class="btn  btn-sm btndownload">View Website</a>
       </div>
     </div>
   </div>
@@ -147,7 +147,7 @@
 
     <section id="contact" data-aos="fade-up">
       <h2>Contact Me</h2>
-      <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+      <form id="contactForm">
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>
           <input type="text" class="form-control" id="name" name="name" required>
@@ -161,6 +161,9 @@
           <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
         </div>
         <button type="submit" class="btn btncontact"><i class="fa fa-envelope"></i> Send</button>
+        <div id="formResponse" class="mt-3 text-success" style="display: none;">
+          <i class="fa fa-check-circle"></i> Thank you! Your message has been submitted.
+        </div>
       </form>
     </section>
   </div>

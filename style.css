@@ -240,3 +240,17 @@ body.dark-mode .card a.btn-outline-primary:hover {
 .foremployers{
   padding-top: 2%;
 }
+
+.btncontact {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+}
+
+.btncontact:hover {
+  background-color: #16a085;
+}
+
+body.dark-mode #formResponse {
+  color: #90ee90;
+}

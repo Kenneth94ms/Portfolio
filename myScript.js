@@ -51,3 +51,24 @@
   });
 
   document.getElementById("year").textContent = new Date().getFullYear();
+
+
+   document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // Get values
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const response = document.getElementById('formResponse');
+
+    // Basic validation
+    if (!name || !email || !message) {
+      alert("Please fill out all fields.");
+      return;
+    }
+
+    // Simulate a successful submission
+    this.reset(); // Clear form
+    response.style.display = 'block';
+  });
