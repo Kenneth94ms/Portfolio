@@ -212,3 +212,31 @@ footer {
 .navbar-brand{
   color: rgb(194, 194, 194);
 }
+
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+body.dark-mode .card {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+body.dark-mode .card a.btn-outline-primary {
+  border-color: #66ffcc;
+  color: #66ffcc;
+}
+
+body.dark-mode .card a.btn-outline-primary:hover {
+  background-color: #66ffcc;
+  color: #121212;
+}
+
+.foremployers{
+  padding-top: 2%;
+}
