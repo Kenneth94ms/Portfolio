@@ -72,3 +72,7 @@
     this.reset(); // Clear form
     response.style.display = 'block';
   });
+
+  function onSubmit(token) {
+    document.getElementById("submitContact").submit();
+  }
