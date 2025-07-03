@@ -74,5 +74,5 @@
   });
 
   function onSubmit(token) {
-    document.getElementById("submitContact").submit();
+    document.getElementById("contactForm").submit();
   }
