@@ -23,6 +23,10 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
+.navbar-toggler{
+  background-color: white;
+}
+
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5rem;
@@ -93,7 +97,8 @@ a {
 
 .hero-section .btn-warning:hover,
 .hero-section .btnview:hover {
-  background-color: #16a085;
+  background-color: white;
+  color:#16a085;
 }
 
 /* New image column styles */
@@ -198,7 +203,7 @@ body.dark-mode .navbar-light .navbar-nav .nav-link {
 }
 
 .btncontact:hover{
-  background-color: white;
+  background-color: white!important;
   color: #16a085;
   border-color: #16a085;
 }
