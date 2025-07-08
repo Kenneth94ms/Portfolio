@@ -11,6 +11,11 @@
   --list-text: #333333;
 }
 
+.iconsspecial{
+  height: 25px;
+  width: 25px;
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
