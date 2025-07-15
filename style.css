@@ -17,6 +17,12 @@
   fill: #1abc9c;
 }
 
+.iconsspecialWhiteHeader{
+  height: 30px;
+  width: 30px;
+  fill: white;
+}
+
 .iconsspecialWhite{
   height: 20px;
   width: 20px;
@@ -26,6 +32,12 @@
 .iconsspecialWhite:hover{
   height: 20px;
   width: 20px;
+  fill: #1abc9c;
+}
+
+.iconsspecialWhiteHeader:hover{
+  height: 30px;
+  width: 30px;
   fill: #1abc9c;
 }
 
