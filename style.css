@@ -3,9 +3,9 @@
   --text-color: #333333;
   --lead-color: #555555;
   --hero-bg: #1e1e1e;
-  --accent-color: #1abc9c;
+  --accent-color: #1542b3;
   --nav-bg: #ffffff;
-  --link-color: #1abc9c;
+  --link-color: #1542b3;
   --list-bg: #ffffff;
   --list-border: #dee2e6;
   --list-text: #333333;
@@ -14,7 +14,7 @@
 .iconsspecial{
   height: 25px;
   width: 25px;
-  fill: #1abc9c;
+  fill: #1542b3;
 }
 
 .iconsspecialWhiteHeader{
@@ -32,13 +32,13 @@
 .iconsspecialWhite:hover{
   height: 20px;
   width: 20px;
-  fill: #1abc9c;
+  fill: #1542b3;
 }
 
 .iconsspecialWhiteHeader:hover{
   height: 30px;
   width: 30px;
-  fill: #1abc9c;
+  fill: #1542b3;
 }
 
 body {
@@ -128,7 +128,7 @@ a {
 .hero-section .btn-warning:hover,
 .hero-section .btnview:hover {
   background-color: white;
-  color:#16a085;
+  color:#161da0;
 }
 
 /* New image column styles */
@@ -155,7 +155,7 @@ a {
 
 
 .devname{
-  color:#16a085;
+  color:#161da0;
 }
 
 .list-group-item {
@@ -198,7 +198,7 @@ body.dark-mode .navbar-light .navbar-nav .nav-link {
 }
 
 #myBtn:hover {
-  background-color: #16a085;
+  background-color: #161da0;
 }
 
 .ms-3 {
@@ -206,43 +206,43 @@ body.dark-mode .navbar-light .navbar-nav .nav-link {
 }
 
 .btndownload{
-  background-color: #16a085;
+  background-color: #161da0;
   color: white;
 }
 
 .btndownload.iconsspecialWhite:hover{
   background-color: white;
-  color: #16a085;
-  border-color: #16a085;
-  fill: #1abc9c;
+  color: #161da0;
+  border-color: #161da0;
+  fill: #1542b3;
 }
 
 .btndownload:hover{
   background-color: white;
-  color: #16a085;
-  border-color: #16a085;
+  color: #161da0;
+  border-color: #161da0;
 }
 
 .btnview{
-  background-color: #16a085;
+  background-color: #161da0;
   color: white;
 }
 
 .btnview:hover{
   background-color: white;
-  color: #16a085;
-  border-color: #16a085;
+  color: #161da0;
+  border-color: #161da0;
 }
 
 .btncontact{
-  background-color: #16a085;
+  background-color: #161da0;
   color: white;
 }
 
 .btncontact:hover{
   background-color: white!important;
-  color: #16a085;
-  border-color: #16a085;
+  color: #161da0;
+  border-color: #161da0;
 }
 
 footer {
@@ -290,7 +290,7 @@ body.dark-mode .card a.btn-outline-primary:hover {
 }
 
 .btncontact:hover {
-  background-color: #16a085;
+  background-color: #161da0;
 }
 
 body.dark-mode #formResponse {
